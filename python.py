@@ -10,12 +10,26 @@ character_age = "35"
 print(character_name + " is " + character_age)
 print(f"{character_name} is {character_age}")
 
+# Functions
+
 print(floor(3.90))
 
 print(abs(-7))
 
 print(sqrt(25))
 
+# Inputs
+
+# name = input("Enter your name:")
+#
+# print(f"Hello {name}!")
+
+#calc
+
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
+result = float(num1) + float(num2)
+print(result)
 # \n = new line
 # \" = puts " in without breaking string
 # len(variable_name) = variable_name.length()
