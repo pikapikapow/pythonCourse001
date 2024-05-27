@@ -41,6 +41,7 @@
 # If statements
 
 # Ifs are very similar in Python to JS. Instead of {}, it's : Indented code is also in use for ifs. else is not indented
+# Elif (py) is the same as else if (js)
 
 # Lists
 
@@ -59,8 +60,13 @@ sayhi()
 # If statements
 
 is_yummy = False
+is_healthy = True
 
-if is_yummy:
-    print("Yum yum!")
+if is_yummy and is_healthy:
+    print("This is the best food!")
+elif is_yummy and not(is_healthy):
+    print("This is yummy but isn't good for me.")
+elif is_healthy and not(is_yummy):
+    print("This is healthy but tastes bad.")
 else:
-    print("Ewwwww!")
+    print("This food is terrible.")
