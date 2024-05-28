@@ -70,3 +70,37 @@ elif is_healthy and not(is_yummy):
     print("This is healthy but tastes bad.")
 else:
     print("This food is terrible.")
+
+# For statements
+
+for index in range(4, 27):
+    if index == 4:
+        print("It's the first!")
+    elif index == 26:
+        print("Last but definitely not least!")
+    else:
+        print(index)
+
+# Exponent function
+
+def exponent(base_num, pow_num):
+    result = 1
+    for index in range(pow_num):
+        result = result * base_num
+    return result
+
+print(exponent(3,2))
+
+# 2D lists
+
+stuff_for_me = [
+    ["wake up", "make bed", "eat breakfast", "brush teeth"],
+    ["Do learning", "Play", "Eat lunch", "Play or code"],
+    ["Eat dinner", "(possibly) watch movie and eat snacks", "brush teeth", "sleep"]
+]
+
+
+
+for row in stuff_for_me:
+    for thing_to_do in row:
+        print(thing_to_do)

@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b13c97-5276-440d-b9cd-3473634bfafb" name="Changes" comment="Learned about functions and lists">
+      <change afterPath="$PROJECT_DIR$/guess.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python.py" beforeDir="false" afterPath="$PROJECT_DIR$/python.py" afterDir="false" />
     </list>
@@ -28,6 +29,9 @@
     &quot;accountId&quot;: &quot;9d3e6616-db24-43ee-81cc-645546c550f8&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/guess.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -41,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.calc.executor&quot;: &quot;Run&quot;,
     &quot;Python.python.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -95,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716731315154</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Learned about functions and lists">
+      <option name="closed" value="true" />
+      <created>1716833287701</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716833287701</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
