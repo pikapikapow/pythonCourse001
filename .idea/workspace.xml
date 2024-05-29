@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8b13c97-5276-440d-b9cd-3473634bfafb" name="Changes" comment="Learned about functions and lists">
-      <change afterPath="$PROJECT_DIR$/guess.py" afterDir="false" />
+    <list default="true" id="a8b13c97-5276-440d-b9cd-3473634bfafb" name="Changes" comment="Learned a lot of the things about python">
+      <change afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python.py" beforeDir="false" afterPath="$PROJECT_DIR$/python.py" afterDir="false" />
     </list>
@@ -108,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716833287701</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Learned a lot of the things about python">
+      <option name="closed" value="true" />
+      <created>1716932948868</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716932948868</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +134,7 @@
     <MESSAGE value="Initiated project" />
     <MESSAGE value="Learned some basics of python" />
     <MESSAGE value="Learned about functions and lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learned about functions and lists" />
+    <MESSAGE value="Learned a lot of the things about python" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learned a lot of the things about python" />
   </component>
 </project>
