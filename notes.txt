@@ -48,3 +48,27 @@
  This is with the power of PYTHON!
  This is with the power of PYTHON!
  This is with the power of PYTHON!
+ This is with the power of PYTHON!
+ This is with the power of PYTHON!
+ This is with the power of PYTHON!
+ This is with the power of PYTHON!
+ This is with the power of PYTHON!
+ This is with the power of PYTHON!
+ This is with the power of PYTHON!
+ This is with the power of PYTHON!
+ This is with the power of PYTHON!
+ This is with the power of PYTHON!
+ This is with the power of PYTHON!
+ This is with the power of PYTHON!
+ This is with the power of PYTHON!
+ This is with the power of PYTHON!
+ This is with the power of PYTHON!
+ This is with the power of PYTHON!
+ This is with the power of PYTHON!
+ This is with the power of PYTHON!
+ This is with the power of PYTHON!
+
+Inheritance
+
+Biggest(Bigger) = Makes Biggest inherit all the the properties of Bigger, so that you don't have to copy and paste.
+You do have to import, of course.

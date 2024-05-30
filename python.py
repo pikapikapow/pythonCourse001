@@ -1,3 +1,4 @@
+from Computer import Computer
 
 
 # Lists
@@ -9,8 +10,10 @@ print(people)
 
 # Functions
 
+
 def sayhi():
     print("Hello")
+
 
 sayhi()
 
@@ -21,9 +24,9 @@ is_healthy = True
 
 if is_yummy and is_healthy:
     print("This is the best food!")
-elif is_yummy and not(is_healthy):
+elif is_yummy and not is_healthy:
     print("This is yummy but isn't good for me.")
-elif is_healthy and not(is_yummy):
+elif is_healthy and not is_yummy:
     print("This is healthy but tastes bad.")
 else:
     print("This food is terrible.")
@@ -40,13 +43,15 @@ for index in range(4, 27):
 
 # Exponent function
 
+
 def exponent(base_num, pow_num):
     result = 1
-    for index in range(pow_num):
+    for i in range(pow_num):
         result = result * base_num
     return result
 
-print(exponent(3,2))
+
+print(exponent(3, 2))
 
 # 2D lists
 
@@ -57,12 +62,12 @@ stuff_for_me = [
 ]
 
 
-
 for row in stuff_for_me:
     for thing_to_do in row:
         print(thing_to_do)
 
 # Translation practice
+
 
 def translator(phrase):
     translation = ""
@@ -77,12 +82,12 @@ def translator(phrase):
     return translation
 
 
-print(translator("EEEEEEEEEE"))
+print(translator("bounce"))
 
 # Try and except (catches errors)
 
 # try:
-#     user_in = int(input("Type in something thats a number: "))
+#     user_in = int(input("Type in something that's a number: "))
 #     print(f"{user_in} is a very cool number")
 # except ValueError as err:
 #     print(f"How dare you {err}!")
@@ -95,3 +100,14 @@ notes.write("\n This is with the power of PYTHON!")
 
 notes.close()
 
+
+# Classes + objects
+
+computer = Computer("YOGA", 2, 512, 16)
+computer2 = Computer("Dell", 3, 1024, 16)
+
+myComputer = computer
+
+myComputer.turn_on()
+print(computer2.ssd)
+print(computer2.is_big_computer())
